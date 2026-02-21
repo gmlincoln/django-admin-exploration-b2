@@ -27,6 +27,7 @@ It demonstrates:
 ---
 
 ## 📂 Project Structure
+```bash
 core/
 │
 ├── accounts/
@@ -36,7 +37,7 @@ core/
 │ ├── views.py
 │ └── apps.py
 │── core
-|   ├── wsgi.py
+│  ├── wsgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   ├── views.py
@@ -45,9 +46,9 @@ core/
 ├── db.sqlite3
 ├── manage.py
 └── README.md
+```
 
 
----
 
 ## ⚙️ Installation & Setup
 
