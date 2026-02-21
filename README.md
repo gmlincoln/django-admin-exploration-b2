@@ -71,3 +71,51 @@ source venv/bin/activate
 python -m venv venv
 venv\Scripts\activate
 ```
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install django
+
+```
+If you are using image fields, also install:
+```bash
+pip install pillow
+```
+
+### 4️⃣ Apply Migrations
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+
+### 5️⃣ Create Superuser
+
+```bash
+python manage.py createsuperuser
+
+```
+
+##### Enter:
+- Username  
+- Email  
+- Password
+- Confirm Password  
+
+### 6️⃣ Run the Development Server
+
+```bash 
+
+python manage.py runserver
+
+```
+
+python manage.py runserver
+
+Open your browser and visit:
+
+```bash
+http://127.0.0.1:8000/admin/
+```
