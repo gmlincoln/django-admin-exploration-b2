@@ -1,0 +1,14 @@
+> py manage.py migrate 
+> py manage.py superusercreate 
+ > username
+ > email 
+ > password
+ > confirm password
+
+> create model > Students
+> py manage.py makemigrations (create model, modify model)
+> py manage.py migrate (applies to database)
+
+For Handle Image
+> pip install pillow 
+
