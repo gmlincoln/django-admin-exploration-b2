@@ -38,10 +38,10 @@ core/
 │ └── apps.py
 │── core
 │  ├── wsgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   ├── views.py
-│   └── asgi.py    
+│  ├── settings.py
+│  ├── urls.py
+│  ├── views.py
+│  └── asgi.py    
 ├── students_img/
 ├── db.sqlite3
 ├── manage.py
