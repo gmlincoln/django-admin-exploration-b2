@@ -1,4 +1,4 @@
-# Django Admin Playground 🚀
+# Django Admin Exploration 🚀
 
 A hands-on project to explore Django’s built-in Admin Panel including superuser creation, model registration, admin customization, and image upload handling.
 
